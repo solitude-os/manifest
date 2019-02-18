@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="prebuilts/prebuiltapks" name="solitude-os/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
-
+    <project path="prebuilts/prebuiltapks" name="solitude-os/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
+    <include name="snippets/lgg6.xml" />
 </manifest>
