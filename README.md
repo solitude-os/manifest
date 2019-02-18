@@ -13,4 +13,12 @@ Then to sync up:
 
 `repo sync`
 
-Please see the LineageOS Wiki for building instructions, by device.
+Pull device tree and blobs in as required.
+
+Setup build environment
+
+`source build/envsetup.sh` or `. build/envsetup.sh`
+
+`brunch <device name>`
+
+Congratulations! You now have a build of Solitude OS!
