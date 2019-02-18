@@ -1,1 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Proprietary for LG G6 -->
+	<project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="github" />
+	<project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="github" />
+	<project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="github" />
+	<project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" />
+	<project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" />
+	<project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" />
+	<project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
+	<!-- Linieage specific -->	
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+</manifest>
