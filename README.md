@@ -1,2 +1,2 @@
-# manifest
+# Manifest
 Manifest for Solitude-OS
