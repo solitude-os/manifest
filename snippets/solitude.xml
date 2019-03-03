@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="prebuilts/prebuiltapks" name="solitude-os/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
+    <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" clone-depth="1" revision="master" />
+    <project path="prebuilts/prebuiltapks" name="solitude-os-odal/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
 </manifest>
