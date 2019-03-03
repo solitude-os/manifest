@@ -17,6 +17,6 @@
     <!-- adblocking -->
     <project path="system/core" name="solitude-os-odal/android_system_core" remote="solitude" groups="pdk" />
     
-    <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" remote="solitude" clone-depth="1" revision="master" />
+    <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" remote="solitude" clone-depth="1" />
     <project path="prebuilts/prebuiltapks" name="solitude-os-odal/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
 </manifest>
