@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
+    <project path="build/make" name="solitude-os-odal/android_build" remote="solitude" groups="pdk" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    
+    <!-- defult wallpaper -->
+    <project path="frameworks/base" name="solitude-os-odal/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+    
+    <!-- adblocking -->
+    <project path="system/core" name="solitude-os-odal/android_system_core" groups="pdk" />
+    
     <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" clone-depth="1" revision="master" />
     <project path="prebuilts/prebuiltapks" name="solitude-os-odal/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
 </manifest>
