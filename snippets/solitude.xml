@@ -12,11 +12,11 @@
     </project>
     
     <!-- defult wallpaper -->
-    <project path="frameworks/base" name="solitude-os-odal/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+    <project path="frameworks/base" name="solitude-os-odal/android_frameworks_base" remote="solitude" groups="pdk-cw-fs,pdk-fs" />
     
     <!-- adblocking -->
-    <project path="system/core" name="solitude-os-odal/android_system_core" groups="pdk" />
+    <project path="system/core" name="solitude-os-odal/android_system_core" remote="solitude" groups="pdk" />
     
-    <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" clone-depth="1" revision="master" />
+    <project path="vendor/lineage" name="solitude-os-odal/android_vendor_lineage" remote="solitude" clone-depth="1" revision="master" />
     <project path="prebuilts/prebuiltapks" name="solitude-os-odal/android_prebuilts_prebuiltapks" clone-depth="1" revision="master" />
 </manifest>
